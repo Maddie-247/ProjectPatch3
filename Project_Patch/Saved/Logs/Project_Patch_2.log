@@ -1077,3 +1077,297 @@ Crash inside the platform compiler:
   Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
   Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
   Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-10.38.32:185][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.09 seconds
+[2026.03.31-10.38.32:185][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-10.38.32:185][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-10.38.32:185][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-10.53.32:247][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.07 seconds
+[2026.03.31-10.53.32:247][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-10.53.32:247][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-10.53.32:247][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-10.54.48:204][  0]LogDerivedDataCache: C:/Users/451495.LEEDS-ART/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.03.31-11.08.32:278][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.04 seconds
+[2026.03.31-11.08.32:278][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-11.08.32:278][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-11.08.32:278][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-11.23.32:279][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.01 seconds
+[2026.03.31-11.23.32:279][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-11.23.32:279][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-11.23.32:279][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-11.38.32:287][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.01 seconds
+[2026.03.31-11.38.32:287][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-11.38.32:287][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-11.38.32:287][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-11.53.23:742][  0]LogShaderCompilers: Error: Hung shadermap detected, time spent compiling: 7200.008053 seconds, NumPendingJobs: 13, FinishedJobs: 733
+[2026.03.31-11.53.32:368][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.09 seconds
+[2026.03.31-11.53.32:368][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-11.53.32:368][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-11.53.32:368][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-11.54.48:205][  0]LogDerivedDataCache: C:/Users/451495.LEEDS-ART/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.03.31-12.08.32:369][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.01 seconds
+[2026.03.31-12.08.32:369][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-12.08.32:369][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-12.08.32:369][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-12.23.32:377][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.01 seconds
+[2026.03.31-12.23.32:377][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-12.23.32:377][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-12.23.32:377][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-12.38.32:420][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.05 seconds
+[2026.03.31-12.38.32:420][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-12.38.32:420][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-12.38.32:420][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-12.53.32:470][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.05 seconds
+[2026.03.31-12.53.32:470][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-12.53.32:470][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-12.53.32:470][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-12.54.48:206][  0]LogDerivedDataCache: C:/Users/451495.LEEDS-ART/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.03.31-13.08.32:569][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.10 seconds
+[2026.03.31-13.08.32:569][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-13.08.32:569][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-13.08.32:569][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-13.23.32:599][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.04 seconds
+[2026.03.31-13.23.32:599][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-13.23.32:599][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-13.23.32:599][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-13.38.32:633][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.04 seconds
+[2026.03.31-13.38.32:633][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-13.38.32:633][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-13.38.32:633][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-13.53.32:653][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.02 seconds
+[2026.03.31-13.53.32:653][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-13.53.32:653][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-13.53.32:653][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-13.54.48:209][  0]LogDerivedDataCache: C:/Users/451495.LEEDS-ART/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.03.31-14.08.32:751][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.10 seconds
+[2026.03.31-14.08.32:751][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-14.08.32:751][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-14.08.32:751][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-14.23.32:784][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.04 seconds
+[2026.03.31-14.23.32:784][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-14.23.32:784][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-14.23.32:784][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-14.38.32:792][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.01 seconds
+[2026.03.31-14.38.32:792][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-14.38.32:792][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-14.38.32:792][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-14.53.32:813][  0]LogShaderCompilers: Warning: No shader compile worker state change in 900.03 seconds
+[2026.03.31-14.53.32:813][  0]LogShaderCompilers: Display: ======= ShaderCompileWorker Diagnostics =======
+[2026.03.31-14.53.32:813][  0]LogShaderCompilers: Display: Worker [6/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FLandscapeFixedGridVertexFactory/FPathTracingMaterialCHS/0:/Engine/Private/PathTracing/PathTracingMaterialHitShader.usf|closesthit=PathTracingMaterialCHS (PermutationId=0)
+[2026.03.31-14.53.32:813][  0]LogShaderCompilers: Display: Worker [15/16]: bAvailable=1, bComplete=0, bIssuedTasksToWorker=1, bLaunchedWorker=0
+  Job [1/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [2/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=0)
+  Job [3/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_PerspectiveCorrect/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Job [4/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TShadowDepthVSVertexShadowDepth_OnePassPointLight/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+  Pipeline Job [5/10] (PermutationId=0):
+    Job [1/1]: WorldGridMaterial_b53a0d4de30e5ba4/Default/DepthNoPixelPipeline/TGPUSkinAPEXClothVertexFactoryUnlimited/TDepthOnlyVS<false>/0:/Engine/Private/DepthOnlyVertexShader.usf|Main (PermutationId=0)
+  Job [6/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf|Main (PermutationId=0)
+  Job [7/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassPSFNoLightMapPolicySkylight/1:/Engine/Private/BasePassPixelShader.usf|MainPS (PermutationId=1)
+  Job [8/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/TGPUSkinAPEXClothVertexFactoryUnlimited/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf|Main (PermutationId=0)
+  Job [9/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/FRayTracingDynamicGeometryConverterCS/0:/Engine/Private/RayTracing/RayTracingDynamicMesh.usf|RayTracingDynamicGeometryConverterCS (PermutationId=0)
+  Job [10/10]: WorldGridMaterial_b53a0d4de30e5ba4/Default/FGeometryCollectionVertexFactory/TShadowDepthVSVertexShadowDepth_OutputDepth/0:/Engine/Private/ShadowDepthVertexShader.usf|Main (PermutationId=0)
+[2026.03.31-14.54.48:221][  0]LogDerivedDataCache: C:/Users/451495.LEEDS-ART/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
